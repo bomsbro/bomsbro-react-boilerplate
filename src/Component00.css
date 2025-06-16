@@ -1,0 +1,141 @@
+.component00-root {
+  position: relative;
+  width: 1200px;
+  height: 800px;
+  background: #f5f5f5;
+  font-family: 'Pretendard', 'Noto Sans CJK KR', Arial, sans-serif;
+  overflow: hidden;
+}
+
+.component00-bg-right {
+  position: absolute;
+  left: 556px;
+  top: 0;
+  width: 774px;
+  height: 800px;
+  background: #d8d8d8;
+  z-index: 1;
+}
+
+.component00-bg-left {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 556px;
+  height: 800px;
+  background: #fff;
+  z-index: 2;
+}
+
+.component00-header {
+  position: absolute;
+  left: 80px;
+  top: 77px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 50px;
+  font-weight: bold;
+  line-height: 65px;
+  z-index: 3;
+}
+.component00-header-blue {
+  color: #2462f7;
+  margin-right: 8px;
+}
+.component00-header-black {
+  color: #121212;
+}
+
+.component00-greeting {
+  position: absolute;
+  left: 80px;
+  top: 142px;
+  font-size: 50px;
+  font-weight: bold;
+  color: #121212;
+  line-height: 65px;
+  z-index: 3;
+}
+
+.component00-info {
+  position: absolute;
+  left: 80px;
+  top: 238px;
+  width: 298px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  z-index: 3;
+}
+.component00-info-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 24px;
+  color: #111;
+  gap: 12px;
+}
+.component00-info-label {
+  width: 140px;
+  font-weight: 400;
+}
+.component00-info-value {
+  font-weight: 400;
+}
+
+.component00-customer {
+  position: absolute;
+  left: 1158px;
+  top: 24px;
+  width: 148px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  background: rgba(17,17,17,0.3);
+  border-radius: 26px;
+  z-index: 4;
+  padding: 0 20px;
+}
+.component00-customer-icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.component00-customer-text {
+  color: #fff;
+  font-size: 20px;
+  font-family: 'Noto Sans CJK KR', sans-serif;
+}
+
+.component00-btn {
+  position: absolute;
+  left: 80px;
+  top: 648px;
+  width: 428px;
+  height: 80px;
+  background: #2462f7;
+  color: #fff;
+  font-size: 30px;
+  border: none;
+  border-radius: 12px;
+  font-family: 'Noto Sans CJK KR', sans-serif;
+  font-weight: 400;
+  cursor: pointer;
+  z-index: 3;
+}
+
+.component00-arrow {
+  position: absolute;
+  left: 420px;
+  top: 666px;
+  width: 48px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 4;
+} 
